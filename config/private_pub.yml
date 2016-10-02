@@ -1,0 +1,7 @@
+production:
+    server: "https://mentor-private-pub.herokuapp.com/faye"
+
+#this is the address of this heroku app once you’ve deployed it, plus the `/faye` extension.
+
+secret_token: "c6c10e7318fac12355d87529616acbedf2981a83e5247407ea8e95e31ef0c1cf"
+signature_expiration: 3600 # one day
